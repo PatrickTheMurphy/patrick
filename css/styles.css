@@ -5,3 +5,14 @@
     width: 100%;
     min-height: 100vh;
 }
+
+.main-content-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.scrollable-section {
+    height: 400px;
+    overflow-x: auto;
+    /* white-space: nowrap; */
+}
