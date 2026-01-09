@@ -3,7 +3,7 @@ html, body {
 }
 
 .background-image {
-    background-image: url('../assets/geen.jpg');
+    background-image: url('geen.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
