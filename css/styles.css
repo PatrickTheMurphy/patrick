@@ -1,22 +1,14 @@
-html, body {
-    height: 100%;
-}
-
-.background-image {
+html {
+    min-height: 100%;
     background-image: url('../assets/geen.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    min-height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-.main-content-wrapper {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-.scrollable-section {
-    height: 400px;
-    overflow-x: auto;
-    /* white-space: nowrap; */
+body {
+    min-height: 100%;
+    margin: 0;
+    background: transparent;
 }
